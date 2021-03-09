@@ -25,6 +25,9 @@
         compile group: 'org.webjars', name: 'jquery', version: '3.1.0'
     }               
     ```
+    
+    - Inclusion dependenciad Gradle, para tener localmente libreias de JavaScript en la contruccion del proyecto
+    ![](https://github.com/StivenVanegas/LAB6-ARSW/blob/master/img/Imag%20Lab%206/back%2C%20P1.png)
 
 ## Front-End - Vistas
 
@@ -33,6 +36,9 @@
     ```
     src/main/resources/static
     ```
+    - Creacion de directorio, para contenido estatico.
+    ![](https://github.com/StivenVanegas/LAB6-ARSW/blob/master/img/Imag%20Lab%206/FORNT%20VIS%20%3D1%2C%20I1.png)
+
 
 4. Cree, en el directorio anterior, la página index.html, sólo con lo básico: título, campo para la captura del autor, botón de 'Get blueprints', campo donde se mostrará el nombre del autor seleccionado, [la tabla HTML](https://www.w3schools.com/html/html_tables.asp) donde se mostrará el listado de planos (con sólo los encabezados), y un campo en donde se mostrará el total de puntos de los planos del autor. Recuerde asociarle identificadores a dichos componentes para facilitar su búsqueda mediante selectores.
 
