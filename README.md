@@ -40,12 +40,12 @@
     ![](https://github.com/StivenVanegas/LAB6-ARSW/blob/master/img/Imag%20Lab%206/FORNT%20VIS%20%3D1%2C%20I1.png)
 
 
-4. Cree, en el directorio anterior, la página index.html, sólo con lo básico: título, campo para la captura del autor, botón de 'Get blueprints', campo donde se mostrará el nombre del autor seleccionado, [la tabla HTML](https://www.w3schools.com/html/html_tables.asp) donde se mostrará el listado de planos (con sólo los encabezados), y un campo en donde se mostrará el total de puntos de los planos del autor. Recuerde asociarle identificadores a dichos componentes para facilitar su búsqueda mediante selectores.
+2. Cree, en el directorio anterior, la página index.html, sólo con lo básico: título, campo para la captura del autor, botón de 'Get blueprints', campo donde se mostrará el nombre del autor seleccionado, [la tabla HTML](https://www.w3schools.com/html/html_tables.asp) donde se mostrará el listado de planos (con sólo los encabezados), y un campo en donde se mostrará el total de puntos de los planos del autor. Recuerde asociarle identificadores a dichos componentes para facilitar su búsqueda mediante selectores.
 
   - Creación de página HTML, con lo especificado, texto, titulo, encabezado
   ![](https://github.com/StivenVanegas/LAB6-ARSW/blob/master/img/Imag%20Lab%206/front%20vis%20P1%2C%20ITEM%202.png)
 
-5. En el elemento \<head\> de la página, agregue las referencia a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap. 
+3. En el elemento \<head\> de la página, agregue las referencia a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap. 
     ```html
     <head>
         <title>Blueprints</title>
@@ -60,7 +60,7 @@
      - Se agregó el Heat a las librerías de JQuery.
      ![](https://github.com/StivenVanegas/LAB6-ARSW/blob/master/img/Imag%20Lab%206/FRONT%20VIS%20P1%2C%20ITEM%203.png)
 
-5. Suba la aplicación (mvn spring-boot:run), y rectifique:
+4. Suba la aplicación (mvn spring-boot:run), y rectifique:
     1. Que la página sea accesible desde:
     ```
     http://localhost:8080/index.html
