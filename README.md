@@ -65,7 +65,12 @@
     ```
     http://localhost:8080/index.html
     ```
+    
+      - Se corre la aplicacion en el puerto 8080, en donde se puede evidenciar que no arroja errores
+      ![](https://github.com/StivenVanegas/LAB6-ARSW/blob/master/img/Imag%20Lab%206/front%20vistas%20item%204.png)
+      
     2. Al abrir la consola de desarrollador del navegador, NO deben aparecer mensajes de error 404 (es decir, que las librerías de JavaScript se cargaron correctamente).
+    ![](https://github.com/StivenVanegas/LAB6-ARSW/blob/master/img/Imag%20Lab%206/front%20vistas%20item%204%2C%20p2.png)
 
 ## Front-End - Lógica
 
