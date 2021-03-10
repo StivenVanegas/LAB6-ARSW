@@ -24,26 +24,20 @@ var Controlador = (function(){
             dataMap.set(name,numeroDePuntos);
             console.log(name+" "+numeroDePuntos);
         }
-        
-        
 
-        
-        
+         $("#tabla").empty();
         $("#lblName").text(author+"'s blueprints:");
-        var fila;
-        $("#tabla").empty();
+        var fila= "<tr><th>Blueprints name</th><th>Number of points</th><th>Open</th></tr>";
+         $("#tabla").append(fila);
         for(var[clave, valor] of dataMap){
-            fila = "<tr><th>Blueprints name</th><th>Number of points</th><th>Open</th></tr><tr> <td>"+ clave + "</td> <td>"+valor+"</td> </tr>";
-            
+            fila = "<tr> <td>"+ clave + "</td> <td>"+valor+"</td> </tr>";
             $("#tabla").append(fila);
         }
         $("#lblPoints").text("Total user points: "+TotalPoints);   
     };
     
     return{
-        
         getBlueprints: getBlueprints
-        
     };
     
 })();
